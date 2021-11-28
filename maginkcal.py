@@ -90,7 +90,8 @@ def main():
             displayService.update(calBlackImage, calRedImage)
             displayService.sleep()
 
-        currBatteryLevel = powerService.get_battery()
+        #currBatteryLevel = powerService.get_battery()
+        currBatteryLevel = 5
         logger.info('Battery level at end: {:.3f}'.format(currBatteryLevel))
 
     except Exception as e:
