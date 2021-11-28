@@ -39,6 +39,6 @@ class DisplayHelper:
 
     def sleep(self):
         # send E-Ink display to deep sleep
-        self.epd.EPD_Sleep()
+        self.epd.sleep()
         self.logger.info('E-Ink display entered deep sleep.')
 
